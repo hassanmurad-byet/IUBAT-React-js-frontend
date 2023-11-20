@@ -1,0 +1,62 @@
+.lastpage {
+    margin: 1rem 0rem;
+}
+
+.lastimg {
+    max-width: 100%;
+    height: auto;
+    margin: 0rem 0;
+}
+
+.lasttxt {
+    display: flex;
+    margin: 5rem 0rem;
+}
+
+.lastinfo {
+    margin: 0  3.5rem;
+    text-align: left;
+    line-height: 1.6rem;
+
+}
+
+.lastlink {
+  
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+    font-weight: 700;
+}
+
+.lastlink:hover {
+    color: rgb(192, 5, 5);
+}
+
+.lastlinkbtn {
+    text-decoration: none;
+    display: flex;
+    padding: 9px 18px;
+    background-color: rgb(161, 5, 5);
+    color: white;
+    border-radius: .4rem;
+
+    justify-content: center;
+
+}
+
+@media screen and (max-width:780px) {
+
+
+    .lasttxt {
+        display: grid;
+        margin: 5rem 0rem;
+    }
+    .lastinfo {
+        
+        margin: 1rem  3rem;
+        text-align: left;
+        line-height: 1.6rem;
+    
+    }
+    
+}

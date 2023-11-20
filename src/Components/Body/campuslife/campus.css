@@ -1,0 +1,87 @@
+.container{
+    /* margin: 0rem 0rem; */
+}
+.campustitle{
+    margin-top: -4rem;
+    font-size: 3.7rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(52, 52, 52);
+}
+.campusdes{
+    font-size:15px ;
+    font-weight: 400;
+    font-style: italic;
+    color: rgb(91, 89, 89);
+
+}
+.cid{
+    display:flex;
+    justify-content: center;
+    margin: 5rem 0rem;
+
+    
+}
+.imgde{
+ margin: 0 2rem;
+  
+}
+.cpimg{
+    max-width: 100%;
+ 
+
+}
+
+.camhd{
+    text-align: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(58, 58, 58);
+  
+}
+.chd{
+    text-align:left;
+    font-size: 15px;
+    line-height: 1.4rem;
+    color: rgb(110, 109, 109);
+    font-weight: 400;
+   
+}
+.moreC{
+    text-decoration: none;
+    color: rgb(41, 110, 230);
+}
+
+.campudbtn{
+    text-decoration: none;
+    color: white;
+    padding: 1rem 7rem;
+    background-color: rgb(173, 11, 11);
+}
+
+
+@media screen and (max-width: 780px) {
+
+
+    .cid{
+        display:grid;
+    
+       
+    }
+    .imgde{
+        
+    }
+
+    .cpimg{
+         
+         width: 1000px;
+         height: auto;
+    
+    }
+    .campudbtn{
+        text-decoration: none;
+        color: white;
+        padding: .8rem 3rem;
+        border-radius: 2rem;
+        background-color: rgb(173, 11, 11);
+    }
+    
+}

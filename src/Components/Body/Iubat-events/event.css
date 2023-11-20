@@ -1,0 +1,144 @@
+#events {
+    margin: 9rem;
+    height: auto;
+}
+
+
+.tit {
+    background-color: rgb(47, 38, 38);
+    padding: 15px;
+ 
+   
+
+
+}
+.ent{
+    color: white;
+    font-size: 40px;
+    
+}
+
+.all {
+    background-color: rgb(44, 1, 1);
+    /* padding-top: 9rem; */
+    padding-bottom:5rem;
+    
+
+}
+
+
+
+.Imgs {
+   
+    margin: 0rem 1rem;
+    justify-content: center;
+
+    /* width: 5.4rem; */
+
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+    /* column-gap: 10px; */
+   
+}
+
+.Cards {
+  
+    padding-bottom: 3rem;
+
+    /* margin-left: 2rem; */
+    /* margin-right: -0rem; */
+    background-color: rgb(236, 236, 236);
+    box-shadow: 0 3rem 6rem rgba(38, 37, 37, .4);
+
+}
+
+.Img1 {
+    max-width:100%;
+    height: auto;
+
+}
+
+.Text1 {
+    color: rgb(170, 3, 3);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+.btns1{
+    margin-top: 3rem;
+}
+
+
+.btn1 {
+ 
+    color: white;
+    background-color:rgb(153, 4, 4);
+    text-decoration: none;
+    padding: 1rem 11rem;
+
+
+}
+
+
+@media screen and (max-width: 780px) {
+    #events {
+        height: auto;
+    }
+
+    
+    .tit {
+        background-color: rgb(47, 38, 38);
+        padding: 15px;
+    
+    
+    }
+    .ent{
+        color: white;
+        font-size: 40px;
+        
+    }
+    
+   
+    
+    
+    .Imgs {
+        margin: 0rem 1rem;
+
+        display:inline;
+ 
+       
+    }
+    
+    .Cards {
+        margin: 0 1rem;
+        padding-bottom: 3rem;
+        
+        justify-content: center;
+
+    }
+    
+    .Img1 {
+      
+        max-width:100%;
+        width: 900px;
+        height: auto;
+    
+    }
+    
+    .Text1 {
+        color: rgb(170, 3, 3);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-weight: 700;
+    }
+    
+    
+    .btn1 {
+        /* margin-bottom: 5rem; */
+        color: white;
+        background-color:rgb(165, 10, 10);
+        text-decoration: none;
+        padding: .6rem 4rem;
+        border-radius: 2rem;
+      
+    
+    }
+}

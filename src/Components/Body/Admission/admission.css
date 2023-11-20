@@ -1,0 +1,78 @@
+.containerAD{
+    margin: 5rem 0rem;
+    background-color: rgb(247, 242, 234);
+    max-width: 100%;
+    height: auto;
+}
+.admh{
+
+   font-size: 4rem;
+   font-weight: 700;
+   color:rgb(54, 53, 53) ;
+
+}
+.admdes{
+    margin-top: -2rem;
+    font-size: medium;
+    color: rgb(93, 93, 93);
+    
+
+
+}
+.admimg{
+    margin:4.4rem 0 ;
+}
+
+.aimg{
+   max-width: 100%;
+   height: auto;
+
+}
+.imgh{
+    margin-top: 2.4rem;
+    font-size: 1.4rem;
+    color: rgb(59, 59, 59);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.admibtn{
+      text-decoration: none;
+      padding: 1rem 7rem;
+      color: white;
+      background-color: rgb(152, 7, 7);
+
+}
+
+@media screen and (max-width: 780px) {
+    .containerAD{
+        height: auto;
+     
+ 
+    }
+    .admh{
+
+        font-size: 3rem;
+        font-weight: 700;
+        color:rgb(54, 53, 53) ;
+     
+     }
+     .admdes{
+        margin: 0rem .3rem;
+         margin-top: -2rem;
+         font-size: medium;
+         color: rgb(93, 93, 93);
+        
+     
+     
+     }
+     .admimg{
+        margin:4rem .5rem ;
+    }
+    .admibtn{
+      
+        padding: .8rem 4rem;
+        border-radius: 2rem;
+      
+
+    }
+  
+}

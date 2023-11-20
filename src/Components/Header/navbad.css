@@ -1,0 +1,410 @@
+.bg {
+
+    background-image: url(../../Images/bgiubt.jpeg );
+    background-size: auto;
+    max-width: 100%;
+    height: 45rem;
+
+    margin-bottom: 7rem;
+
+}
+
+
+.navbar-visible {
+    transform: translateY(0);
+}
+
+.navbar-hidden {
+    transform: translateY(-100%);
+}
+
+.navbar {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: transform 0.3s;
+    background-color: rgb(168, 5, 5);
+
+    padding-top: 1rem;
+    padding-left: 2rem;
+    transition: .6s ease-in;
+    position: fixed;
+    /* justify-content: space-between; */
+    object-fit: cover;
+    position: sticky;
+
+}
+
+/* .navbar-color {
+    background-color: rgb(132, 1, 1);
+} */
+
+.logos {
+    margin-top: -22px;
+    display: flex;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.logo {
+    padding-top: .6rem;
+    margin-left: .2rem;
+    width: 50px;
+    height: 45px;
+
+}
+
+.IUBAT {
+    margin-top: .6rem;
+    margin-left: .5rem;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(249, 249, 249);
+
+}
+
+.item {
+    text-align: right;
+    margin-top: -2.4rem;
+
+}
+
+.navitems {
+    /* border: 2px solid black; */
+    display: inline-block;
+
+}
+
+.navitem {
+    padding: 25px 0px;
+    margin: 2.2rem;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: rgb(246, 245, 245);
+    text-align: center;
+}
+
+
+.navitem:hover {
+
+    /* transition: .7s ease; */
+    padding-bottom: 0.1rem;
+    border-bottom: 1px solid white;
+
+}
+
+.items {
+    margin-top: -1rem;
+
+}
+
+
+.navbarsecond {
+    /* border: 2px solid black; */
+    margin-top: 25px;
+
+
+
+}
+
+.navitem2 {
+    display: inline-block;
+    padding: 0px 0px;
+    margin: 1.5rem;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: rgb(246, 245, 245);
+    text-align: center;
+
+}
+
+.navitem2:hover {
+    padding-bottom: 1rem;
+    transition: 1s ease;
+    border-bottom: 2.5px solid rgb(254, 254, 254);
+
+}
+
+.theme {
+    margin-top: 12rem;
+    text-align: center;
+    color: white;
+}
+
+.iubat {
+    font-size: 90px;
+    font-weight: bold;
+
+}
+
+.learn {
+    margin-top: -5rem;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.mobMenu {
+    width: 1rem;
+    height: 1rem;
+    background-color: white;
+    border: 1px solid rgb(247, 243, 243);
+    display: none;
+
+}
+
+.navcls {
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.navbarsecond3 {
+    display: flex;
+
+    /* align-items: flex-start; */
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    /* display: flex; */
+    flex-direction: column;
+    padding: 15.6rem 2rem;
+    /* height: fit-content; */
+    min-width: 12rem;
+    background: rgb(61, 61, 61);
+    transition: 0.3s ease-in-out;
+
+
+
+}
+
+.navitem3 {
+
+
+    padding: 9px 0px;
+    text-decoration: none;
+    color: white;
+    margin: 0rem;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+.navitem3:hover {
+    transition: .3s ease-in-out;
+    padding-bottom: 1px;
+    border-bottom: 1px solid rgb(254, 254, 254);
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 1020px) {
+    .navbar {
+      
+        background-color:rgba(1,2,3,.4);
+    
+       
+    
+    }
+    .bg {
+        background-size: auto;
+    }
+
+
+    .logos {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .logo {
+        /* padding-top: .9rem; */
+        margin-left: -1rem;
+        width: 3rem;
+        height: 2.5rem;
+
+    }
+
+    .IUBAT {
+        margin-top: .7rem;
+        margin-left: .1rem;
+        font-size: 36px;
+    }
+
+    .item {
+        margin-top: -4rem;
+
+    }
+
+    .navitems {
+       
+        /* display: inline-block;
+        border-color: 1px solid black; */
+
+    }
+
+    .navitem {
+      
+
+        margin: .1rem;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .items {
+       
+        text-align: right;
+    }
+
+    .navitem2 {
+        display: none;
+    }
+
+    .theme {
+        margin-top: 15rem;
+
+        justify-content: center;
+        color: rgb(255, 255, 255);
+    }
+
+    .iubat {
+        font-size: 70px;
+        font-weight: bold;
+
+    }
+
+    .learn {
+        margin-top: -5rem;
+        font-size: 27px;
+        font-weight: 500;
+    }
+
+
+
+
+    .mobMenu {
+        width: 1rem;
+        height: 1rem;
+        display: inline;
+        margin-right: 1rem;
+
+    }
+
+
+
+    .navbarsecond3 {
+        display: flex;
+
+        /* align-items: flex-start; */
+        position: absolute;
+        top: 0rem;
+        right: 0rem;
+        /* display: flex; */
+        flex-direction: column;
+        padding: 15.6rem 1rem;
+        /* height: fit-content; */
+        min-width: 12rem;
+        background: rgb(61, 61, 61);
+
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 420px) {
+    .bg {
+        background-size: auto;
+    }
+
+    .logo {
+
+        margin-left: -1.1rem;
+        width: 2rem;
+        height: 1.8rem;
+
+    }
+
+    .IUBAT {
+        font-size: 28px;
+    }
+
+
+    .item {
+        margin-top: -4.1rem;
+        text-align: left;
+        margin-left: -1.3rem;
+
+    }
+
+    .navitem {
+
+        margin: .1rem;
+        font-size: 10px;
+        font-weight: 500;
+
+
+    }
+
+    .theme {
+        margin-top: 15rem;
+
+        justify-content: center;
+        color: rgb(255, 255, 255);
+    }
+
+    .iubat {
+        font-size: 50px;
+        font-weight: bold;
+
+    }
+
+    .learn {
+        margin-top: -3rem;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+
+
+    .mobMenu {
+
+        margin-right: 1rem;
+
+    }
+
+
+
+    .navbarsecond3 {
+        display: flex;
+        /* align-items: flex-start; */
+        position: absolute;
+        top: 0rem;
+        right: 0rem;
+        /* display: flex; */
+        flex-direction: column;
+        padding: 15.6rem 1rem;
+        /* height: fit-content; */
+        min-width: 6rem;
+        height: 13.6rem;
+        background: rgb(61, 61, 61);
+
+    }
+
+}

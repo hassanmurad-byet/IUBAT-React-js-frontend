@@ -1,0 +1,62 @@
+.ali{
+    background-image: url('../Alumulla/Sir/full.jpg');
+   
+    height:40rem;
+    margin: 3rem 0;
+}
+.aliimg{
+    margin-top: 4rem;
+    width: 15rem ;
+    height: 15rem ;
+    justify-content: center;
+    text-align: center;
+}
+
+.alltxt{
+     text-align: center;
+    color: white;
+   margin-bottom: 3rem;
+}
+.aligl{
+    /* background-color: rgba(255, 255, 255, 0.2);
+    margin: 1rem 14rem; */
+    margin-bottom: 3rem;
+   
+ 
+}
+.alinm{
+    /* background-color: rgba(255, 255, 255, 0.2);
+    margin:0 35rem; */
+
+
+}
+.fnd{
+    margin-bottom: 4rem;
+
+}
+.mbtn{
+color: white;
+   background-color:rgb(1, 78, 1);
+   text-decoration: none;
+   padding: 1rem 3rem;
+   border-radius: 2rem;
+   
+}
+
+@media screen and (max-width: 600px) {
+
+  
+    .aligl{
+        font-size: 18px;
+    }
+    .alinm{
+        font-size: 20px; 
+    
+    }
+    .mbtn{
+           padding: 1rem 2rem;
+           
+        }
+    
+  
+}

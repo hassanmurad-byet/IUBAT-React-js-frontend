@@ -1,0 +1,53 @@
+.abdur{
+  
+    background-image: url('./AbdurImg/iubatbg.jpeg');
+    max-width: 100%;
+    height:auto;
+   margin-top: -6rem;
+   margin-bottom: 5rem;
+  
+ 
+  
+}
+.info{
+   justify-content: center;
+   /* background-color: rgba(2,2,2,.4); */
+   background-color: rgba(2,2,2,.4);
+  
+ 
+
+
+}
+.abdurimg{
+    margin-top: 6rem;
+  
+}
+.abdurtitle{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    /* padding: 0 40px; */
+    margin:0 15px ;
+}
+.name{
+    color: white;
+    font-size: 1.7rem;
+    margin-top: 4rem;
+}
+
+.podibi{
+    margin-top: -1.2rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.adbtn{
+ 
+    color: white;
+    text-decoration: none;
+    padding: .2rem 1rem;
+    background-color: rgb(29, 103, 12);
+    border-radius: 2rem;
+   
+    
+}

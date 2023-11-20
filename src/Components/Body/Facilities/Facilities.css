@@ -1,0 +1,86 @@
+.containerF{
+    margin: 0rem 0 ;
+    height: auto;
+
+}
+.faciHead{
+    font-size: 4rem;
+    font-weight: 740;
+    text-shadow: 30rem;
+    color: rgb(40, 40, 40);
+  
+}
+.faciDes{
+    margin-top: -1.5rem;
+    margin-bottom: 3rem;
+    font-size: 14px;
+    color: rgb(95, 95, 96);
+    font-weight:500;
+    font-style: italic;
+}
+
+.fcontent{
+    display: flex;
+    justify-content: center;
+
+}
+.FiDtls{
+   margin: 0rem 1rem;
+   
+}
+.fcimg{
+    max-width: 100%;
+    height: auto;
+   
+}
+
+.fchd{
+    margin: 1.5rem 1rem;
+    text-align: left;
+    color: rgb(63, 61, 61);
+}
+.fcdes{
+    margin-top: -1rem;
+    text-align: left;
+    margin: -.9rem 1rem;
+    font-size: 15px;
+    margin-bottom: 7rem;
+    color: rgb(92, 91, 91);
+}
+
+.fmore{
+    text-decoration: none;
+    color: rgb(28, 117, 194);
+
+}
+.Fcbtn{
+    text-decoration: none;
+    padding: 1rem 6rem;
+    color: white;
+    background-color: rgb(149, 4, 4);
+}
+
+
+
+@media screen and (max-width: 780px) {
+    .containerF{
+      
+        height: auto;
+    
+    }
+    .fcontent{
+        display: grid;
+        justify-content: center;
+      
+    }
+
+    .Fcbtn{
+     
+        padding: .9rem 3.7rem;
+      border-radius: 2rem;
+    }
+    
+
+   
+    
+}

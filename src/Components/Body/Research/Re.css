@@ -1,0 +1,156 @@
+.reserch{
+   margin: 4rem 0;
+ 
+}
+
+.reserch{
+   /* max-width:87rem; */
+
+
+}
+.fhdr{
+    margin: 4rem 0 ;
+    text-align: center;
+    justify-content: center;
+}
+.htit{
+    text-align: center;
+    justify-content: center;
+    font-size: 55px;
+    color: rgb(43, 41, 41);
+    text-shadow:90rem;
+}
+.sum{
+    margin-top:-2rem ;
+    font-style: italic;
+    font-size: 14px;
+    color: rgb(103, 102, 102);
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    
+}
+.Reshd{
+    display: flex;
+    color: rgb(56, 56, 58);
+    justify-content: center;
+
+}
+.mhrd{
+    margin: 02rem 3rem;
+    text-align: center;
+    
+}
+.font{
+   font-size: 30px;
+}
+.tx{
+    font-weight: 600;
+    font-size: 13px;
+}
+.ReHead{
+    margin: 4rem 0;
+    font-size: 36px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+     color: rgb(43, 45, 45);
+}
+.Iubtre{
+    margin: 0rem 1rem;
+ 
+   
+}
+.iubtre{
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+    margin-bottom: 6rem;
+
+}
+.Rimg{
+
+    padding-bottom: 3rem;
+    margin: 1rem 8px ;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3rem 6rem rgba(38, 37, 37, .2);
+    column-gap: 2rem;
+
+
+}
+.Toimg{
+   max-width:100%;
+    height: auto;
+
+  
+}
+.txts{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.btn2{
+     text-decoration: none;
+     padding: 1rem 8rem;
+     background-color: rgb(160, 0, 0);
+     color: white;
+  
+
+
+}
+
+@media screen and (max-width: 780px) {
+
+    .fhdr{
+        margin: 4rem 1rem ;
+        text-align: center;
+        justify-content: center;
+    }
+    .Reshd{
+        display: grid;
+    }
+    .mhrd{
+        margin: 1rem 1rem;
+        text-align: center;
+    }
+    .font{
+       font-size: 24px;
+    }
+    .tx{
+        font-weight: 600;
+        font-size: 12px;
+    }
+   .ReHead{
+    font-size: 33px; 
+    margin: 4rem 1rem;
+   }
+   .Iubtre{
+    margin: 3rem 0 ;
+   }
+    .iubtre{
+        display: contents;
+        margin: 1rem 0;
+       
+    }
+    .Rimg{
+        padding-bottom: 3rem;
+        margin: 1rem 8px ;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.3);
+
+    }
+    .Toimg{
+       width: 710px;
+    }
+    .txts{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    
+    .btn2{
+        text-decoration: none;
+        padding: 12px 4rem;
+        border-radius: 2rem;
+     
+   
+   
+   }
+   
+}

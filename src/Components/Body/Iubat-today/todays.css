@@ -1,0 +1,213 @@
+#News {
+    /* background-color: rgb(250, 245, 223); */
+
+    height: auto;
+    margin: 3rem;
+}
+
+.Newstitle {
+    margin: -2.5rem 0;
+
+}
+
+.h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(19, 17, 10);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.newsdesc {
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgb(78, 77, 77);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px 0;
+}
+
+
+/* for all imges  */
+
+.imgs {
+    margin: 5rem 0rem;
+
+}
+
+/* firsttoday */
+.todayimgs {
+    display: flex;
+
+
+
+
+}
+
+/* for secondcard */
+.stodayimgs {
+    display: flex;
+
+}
+
+
+
+
+/* apply for all imgs */
+.todaycard {
+
+    padding-bottom: 3rem;
+    margin: 1rem 1rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3rem 6rem rgba(164, 163, 163, 0.8);
+    column-gap: 2rem;
+
+
+}
+
+.todayimg {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.todayimglg {
+    max-width: 100%;
+    width: 600px;
+    height: auto;
+}
+
+.todaycardlg {
+    margin: 1rem 1rem;
+
+}
+
+
+
+.todaytxt {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.btns {
+    color: white;
+    background-color: rgb(152, 21, 3);
+    text-decoration: none;
+    padding: 1rem 9rem;
+    /* border-radius: 2rem; */
+}
+
+
+
+@media screen and (max-width: 780px) {
+
+    #News {
+
+        height: auto;
+        margin-bottom: 2rem;
+        /* margin-top: -5rem; */
+    }
+
+    .Newstitle {
+       margin-top: -4rem;
+    
+    }
+
+
+    /* for all imges  */
+
+    .imgs {
+        margin: 4rem -2.5rem;
+
+    }
+
+    /* firsttoday */
+    .todayimgs {
+        display: grid;
+
+    }
+
+    /* for secondcard */
+    .stodayimgs {
+        display: grid;
+
+    }
+
+
+
+
+    /* apply for all imgs */
+    .todaycard {
+
+        padding-bottom: 0rem;
+        margin: .2rem 0rem;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 3rem 6rem rgba(80, 80, 80, 0.8);
+        column-gap: 2rem;
+
+
+    }
+
+    .todayimg {
+        max-width: 100%;
+        width: 1000px;
+        height: auto;
+
+    }
+
+    .todayimglg {
+        max-width: 100%;
+        width: 1000px;
+        height: auto;
+    }
+
+    .todaycardlg {
+        margin: 0rem 0rem;
+
+    }
+
+
+
+    .todaytxt {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .btns {
+       
+        color: white;
+        background-color: rgb(152, 21, 3);
+        text-decoration: none;
+        padding: 1rem 9rem;
+
+        /* border-radius: 2rem; */
+    }
+
+
+
+}
+
+@media screen and (max-width: 420px) {
+
+
+    #News {
+
+        height: auto;
+    }
+
+    .h2 {
+        font-size: 2.4rem;
+        font-weight: bold;
+
+    }
+
+    .btns {
+        color: white;
+        background-color: rgb(152, 21, 3);
+        text-decoration: none;
+        padding: .6rem 4rem;
+        border-radius: 2rem;
+
+
+        /* border-radius: 2rem; */
+    }
+
+}

@@ -1,0 +1,103 @@
+.HealthCare {
+    height: 47rem;
+    background-color: rgb(246, 242, 234);
+    margin-bottom: 6rem;
+
+}
+.spn{
+    margin:1rem;
+}
+
+.titnm {
+    font-size: 4rem;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(62, 63, 63);
+}
+
+.para {
+    margin-top: -2rem;
+    color: rgb(81, 82, 83);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.Health {
+    justify-content: center;
+    display: flex;
+    column-gap: 8px;
+    margin: 0rem 1rem;
+
+}
+
+.care {
+    margin: 3rem 0rem;
+
+}
+
+.careimg {
+    max-width: 100%;
+    height: auto;
+    
+   
+}
+
+.txtH {
+    text-align: left;
+    font-size: 22px;
+    color: rgb(59, 59, 59);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.txtDs {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(98, 98, 98);
+    line-height: 25px;
+
+
+}
+
+.moreDs {
+    text-decoration: none;
+    color: rgb(21, 106, 217);
+
+}
+
+@media screen and (max-width: 780px) {
+
+    .HealthCare {
+        height: auto;
+        background-color: rgb(246, 242, 234);
+        margin-bottom: 6rem;
+
+    }
+
+    .titnm {
+        font-size: 65px;
+
+    }
+
+    .Health {
+        display:grid;
+        justify-content: center;
+
+        margin: 1rem 1rem;
+
+    }
+
+    .care {
+        margin: 1em 0rem;
+        
+        
+    }
+    .careimg {
+        max-width: 100%;
+        height: auto;
+        
+       
+    }
+}

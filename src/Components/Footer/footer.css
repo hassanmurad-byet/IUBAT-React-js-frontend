@@ -1,0 +1,46 @@
+.footer{
+    margin: 0rem 0;
+    background-image: url('./footer.png');
+    height: 21rem;
+}
+
+.footerimg{
+    margin-top: 3rem;
+    width: 4rem;
+    height: 3.5rem;
+}
+.footerhead{
+    color: white;
+    font-size: 16px;
+}
+.foot{
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}
+.bolded{
+   font-weight: 700;
+}
+
+
+@media screen and (max-width:780px){
+
+   
+
+    .footerhead{
+        color: white;
+        font-size: 15px;
+     
+    }
+    .foot{
+        margin: 10px 5px;
+        color: white;
+        font-size: 13px;
+        font-weight: 300;
+    }
+    .bolded{
+       font-weight: 700;
+    }
+
+    
+}
